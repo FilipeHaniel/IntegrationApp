@@ -12,35 +12,33 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
-        android:src="@tools:sample/avatars"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:srcCompat="@drawable/girl" />
+        android:src="@drawable/girl" />
 
     <ImageView
         android:id="@+id/imageView5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:scaleType="centerCrop"
-        android:src="@tools:sample/avatars"
+        android:src="@drawable/bottom_white"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="482dp"
-        tools:srcCompat="@drawable/bottom_white" />
+        tools:visibility="visible" />
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="welcome\nto UiLover"
-        android:layout_marginStar="32dp"
+        android:layout_marginStart="32dp"
         android:textColor="#000000"
         android:textSize="35sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView4"
-        />
+        app:layout_constraintTop_toBottomOf="@+id/imageView4" />
 
     <TextView
         android:id="@+id/textView2"
@@ -48,7 +46,7 @@
         android:layout_height="wrap_content"
         android:text="Download all the designs avaliable\n on the ui lover \nchannel for free"
         android:textSize="20sp"
-        android:textColor="@8b8b8b"
+        android:textColor="#8b8b8b"
         app:layout_constraintStart_toStartOf="@+id/textView"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 
